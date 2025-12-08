@@ -1,7 +1,7 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 import StatsBoxes from "./StatsBoxes";
-
+import Refresh from "./Refresh";
 
 export default function Filters({ filters, setFilters }) {
   const update = (key, value) =>
@@ -26,6 +26,7 @@ export default function Filters({ filters, setFilters }) {
       </div>
 
       <div className="flex flex-wrap items-center p-2 gap-2">
+        <Refresh />
         <select
           className="px-2 py-1 outline-none text-sm bg-gray-200 rounded"
           value={filters.regions || ""}
