@@ -1,5 +1,6 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
+import StatsBoxes from "./StatsBoxes";
 
 
 export default function Filters({ filters, setFilters }) {
@@ -99,6 +100,7 @@ export default function Filters({ filters, setFilters }) {
           <option value="quantity">Sort: Quantity</option>
         </select>
       </div>
+      <StatsBoxes />
     </div>
   );
 }
