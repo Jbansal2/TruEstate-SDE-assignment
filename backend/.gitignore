@@ -1,3 +1,5 @@
+# from project root
+Set-Content -Path .gitignore -Value @'
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -50,6 +52,3 @@ Thumbs.db
 # Optional: If you add tests or coverage
 .nyc_output
 coverage/
-
-# Optional: If using Docker
-.dockerignore
