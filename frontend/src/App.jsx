@@ -9,6 +9,8 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Transactions />} />
+        <Route path="/transactions" element={<Transactions />} />
+        <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </div>
   )
