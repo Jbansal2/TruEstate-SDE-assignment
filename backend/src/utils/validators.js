@@ -1,4 +1,4 @@
-const Joi = require("joi");
+const Joi = require('joi');
 
 exports.idSchema = Joi.object({
   id: Joi.string().required()
