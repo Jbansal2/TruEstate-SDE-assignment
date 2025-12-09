@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://truestate2.vercel.app/api",
 });
 
 export const fetchTransactions = async (params) => {
